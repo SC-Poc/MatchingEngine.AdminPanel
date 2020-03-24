@@ -9,7 +9,7 @@ RUN npm i
 
 COPY . .
 
-RUN npm run build
+RUN npm run build-dev
 
 # Stage 2
 FROM nginx:1.16.0-alpine
